@@ -1,0 +1,22 @@
+<div ng-app="nameApp"  class="filter">
+<p>Filter by:</p>
+<p><input type="text" ng-model="test"></p>
+<!-- <ul>
+  <li ng-repeat="x in names | filter:test | orderBy:'country'">
+    {{ (x.name | uppercase) + ', ' + x.country }}
+  </li>
+</ul> -->
+<p>Sort by:</p>
+<p>
+<select aria-label="ngSelected left" class="select_left">
+  <option>Lasted Unread</option>
+  <option id="greet" ng-selected="selected">Greetings!</option>
+</select>
+<select aria-label="ngSelected right" class="select_right">
+  <option>Decending</option>
+  <option id="greet" ng-selected="selected">Greetings!</option>
+</select>
+</p>
+</div>
+
+<!--  -->

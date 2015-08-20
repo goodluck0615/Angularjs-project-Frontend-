@@ -1,0 +1,28 @@
+<div class="tab_nav">
+    <section>
+        <ul class="nav nav-pills">
+            <li ng-class="{active:isSet(1)}"><a href ng-click="setTab(1)">All</a></li>
+            <li ng-class="{active:isSet(2)}"><a href ng-click="setTab(2)">Including Me</a></li>
+            <li ng-class="{active:isSet(3)}"><a href ng-click="setTab(3)">Bookmarked</a></li>
+            <li ng-class="{active:isSet(4)}"><a href ng-click="setTab(4)">Requests</a></li>
+            <li ng-class="{active:isSet(5)}"><a href ng-click="setTab(5)">Responses</a></li>
+            <li ng-class="{active:isSet(6)}" class="tab_closed"><a href ng-click="setTab(6)">Closed</a></li>
+        </ul>
+        
+        <div ng-show="isSet(1)">
+             <div ng-include="'template/page-left/page_all.html'"></div>
+        </div>
+        <div ng-show="isSet(2)">
+             <div ng-include="'template/page-left/page_me.html'"></div>
+        </div>
+        <div ng-show="isSet(3)">
+              <div ng-include="'template/page-left/page_mark.html'"></div>
+        </div>
+        <div ng-show="isSet(4)">
+             <div ng-include="'template/page-left/page_request.html'"></div>
+        </div>
+        <div ng-show="isSet(5)">
+             <div ng-include="'template/page-left/page_response.html'"></div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,87 @@
+.discuss_content {
+    width: 100%;
+    height: 500px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #DED9D9;
+    overflow-y: auto;
+    text-align: center;
+}
+.discuss_content .discussing {
+	width: 70%;
+    display: inline-block;
+    margin-top: 20px;
+}
+.discuss_content .discussing .person_state {
+	background: url('../../img/request.jpg') no-repeat;
+    width: 60px;
+    height: 17px;
+    float: right;
+}
+.discuss_content .discussing .response .response_mark {
+	background: url('../../img/response.jpg') no-repeat;
+    width: 60px;
+    height: 17px;
+    float: right;
+}
+.discuss_content .info {
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+.discuss_content .response {
+	width: 25%;
+    float: left;
+    display: block;    
+} 
+.discuss_content .person_img {
+	margin-right: 10px;
+}
+.discuss_content .person_img img {
+	width: 40px;
+    height: 40px;
+}
+.discuss_content .person_name {
+	font-size: 12px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.discuss_content .request_content {
+	width: 75%;
+    float: right;
+    text-align: initial;
+    background-color: white;
+    box-shadow: 1px 1px 5px #B3B1B1;
+    padding: 20px;
+}
+.discuss_content .response_content {
+	width: 70%;
+    float: right;
+    text-align: initial;
+    background-color: white;
+    box-shadow: 1px 1px 5px #B3B1B1;
+    padding: 20px;
+}
+.discuss_content .request_content .message-text, .discuss_content .response_content .message-text{
+	font-weight: 600;
+}
+.discuss_content .request_content .to_request {
+    margin-top: 10px;
+    color: grey;
+    font-size: 12px;
+}
+.discuss_content .response_content .response_person {
+	margin-bottom: 10px;
+}
+.discuss_content .request_content .to_request img, .discuss_content .response_content .response_person img {
+    width: 20px;
+    height: 20px;
+}
+
+.discuss_content .request_content .to_request span {
+	margin-left: 10px;
+}
+.discuss_content .request_content .to_request .request_person{
+	opacity: 0.5;
+    margin-left: 5px;
+    margin-top: 5px;
+}

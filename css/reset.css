@@ -1,0 +1,51 @@
+.fa-search:before{
+	color: grey;
+	font-size: 18px;
+}
+.fa-question-circle:before{
+	color:grey;
+	font-size: 18px;
+}
+.fa-bell:before{
+	color: grey;
+	font-size: 18px;
+}
+.fa-map-marker:before{
+	font-size: 18px;
+}
+.tab_nav .nav>li>a {
+	padding: 5px 10px;
+}
+.tab_nav .nav>li>a:hover, .tab_nav .nav>li>a:focus {
+	background-color: #3F89CE;
+}
+.fa-minus-square:before {
+	color: grey;
+}
+.ta-editor, .white-box {
+	border: 1px solid #D4CECE !important;
+}
+.ta-scroll-window > .ta-bind {
+	min-height: 130px !important;
+	text-align: left;
+}
+.lighter {
+	width: 96%;
+    display: inline-block;
+	border: 1px solid #BFBEBE;
+}
+.lighter .container {
+	width: 100% !important;
+}
+.lighter .btn-toolbar {
+	margin-left: 0px;
+}
+.lighter .ng-pristine {
+	background-color: white;
+}
+.ta-toolbar {
+	background-color: white !important;
+}
+.fa-wrench:before, .fa-plus:before {
+	color: grey;
+}

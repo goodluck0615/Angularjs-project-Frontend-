@@ -1,0 +1,14 @@
+.filter {
+	margin-top: 15px;
+}
+.select_left {
+    font-size: 14px;
+    width: 60%;
+    padding: 4px;
+}
+.select_right {
+    width: 35%;
+    font-size: 14px;
+    margin-left: 2%;
+    padding: 4px;
+}

@@ -1,0 +1,54 @@
+.text_edit {
+	width: 100%;
+}
+.text_edit .text_edit_window {
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.discuss-person {
+	text-align: left;	
+    display: inline-block;
+    width: 96%;
+}
+.discuss-person .person_one {
+    width: 140px;
+    padding: 5px;
+    background-color: #dce4f0;
+    float: left;
+    margin-right: 5px;
+}
+.discuss-person .person_one img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.dicuss_list {
+	width: 96%;
+	display: inline-block;
+	margin-top: 10px;    
+}
+.include_person {
+	width: 75%;
+    height: 40px;
+    border: 1px solid #C5BFBF;
+    float: left;
+    padding: 4px;
+}
+.submit_discuss {
+	width: 23%;
+    height: 40px;
+    background-color: #4f8ae2;
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.submit_discuss:hover {
+        background-color: #669CEC;
+}
+.submit_discuss a, .submit_discuss a:hover {
+    color: white;
+}
